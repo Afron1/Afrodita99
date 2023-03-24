@@ -1,0 +1,132 @@
+body{
+	background-color: whitesmoke;
+	background-image: url("123.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.topnav{
+	background-color: #1C315E;
+	overflow: hidden;
+	box-shadow: 5px 10px;
+	color: black;
+	margin-right: 10px;
+
+	
+
+}
+.topnav a{
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 20px 22px;
+	text-decoration:none ;
+	font-size: 20px;
+	margin-right: 50px;
+	color: white;
+
+}
+
+
+.midnav a{
+	margin-top: 40px;
+}
+.midnav a:hover{
+	text-decoration: underline;
+	transition: 10s;
+}
+.active img{
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-right: 100px;
+	
+}
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+.bottomnav{
+background-color:#1C315E;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  
+}
+.bottomnav h2{
+	 float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 100px;
+}
+.bottomnav img{
+    float: right;
+	height: 70px;
+	width: 70px;
+	margin-right: 50px;
+	padding: 15px 10px;
+}
+#back{
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-left: 450px;
+	font-size: 30px;
+
+}
+#back:hover{
+	text-decoration: underline;
+
+}
+.container{
+	background-color:#1C315E ;
+	border: solid #1C315E 5px ;
+	margin: auto;
+	width: 75%;
+}
+input[type="text"], input[type="email"] {
+    width: 30%;
+    height: 46px;
+    margin-left: 130px;
+}
+input[type="text"], input[type="email"], textarea{
+	color: white;
+	background-color:#EAFDFC ;
+	border: none ;
+	margin-top: 6px;
+	margin-right: 10px;
+	padding-left:20px ;
+	font-size: 18px;
+}
+
+textarea {
+    height: 200px;
+    width: 98%;
+    padding-top: 24px;
+    margin-right: 20px;
+
+}
+
+input[type="submit"] {
+    background-color: #30bae7;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.big-button {
+    padding: 25px 85px;
+    color: white;
+}
+.title-box{
+	color: white;
+	text-align: center;
+}

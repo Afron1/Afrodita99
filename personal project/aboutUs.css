@@ -1,0 +1,65 @@
+.history{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: white; 
+}
+.h1{
+	border: solid 5px black;
+	background-color: #1C315E;
+	box-shadow: black 5px 10px;
+}
+.h1 a{
+	text-decoration: none;
+	color: white;
+}
+.h1 a:hover{
+	text-decoration: underline;
+	color:#1C315E ;
+	transition: 5s;
+
+}
+.goal{
+	border: solid 5px black;
+	background-color: #1C315E;
+	box-shadow: black 5px 10px;
+}
+.location{
+	border: solid 5px black;
+	background-color: #1C315E;
+	box-shadow: black 5px 10px;
+}
+.chapter{
+	border: solid 5px black;
+	background-color: #1C315E;
+	box-shadow: black 5px 10px;
+}
+body{
+	background-color: whitesmoke;
+	background-image: url("123.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.h1 img{
+	width: 90px;
+	height: 90px;
+	margin-right: 100%;
+	margin-top: -100px;
+	padding: 5px;
+
+}
+.location a{
+	color: white;
+}
+.location a:hover{
+	color: blue;
+	transition: 2s;
+}
+.chapter a{
+	color: white;
+}
+.chapter a:hover{
+	color: blue;
+	transition: 2s;
+}
